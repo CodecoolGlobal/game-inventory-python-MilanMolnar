@@ -131,7 +131,6 @@ def export_inventory(inventory, filename="export_inventory.csv"):
     '''
     list_of_items = []
     tuple_of_items = list(inventory.items())
-    print(tuple_of_items)
     for tuple in tuple_of_items:
         for j in range(len(tuple)):
             list_of_items.append(tuple[j])
